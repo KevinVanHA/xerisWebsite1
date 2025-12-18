@@ -4,6 +4,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import XerisCoin from './pages/XerisCoin';
 import Contact from './pages/Contact';
+import DesignSystem from './pages/DesignSystem';
 import Layout from './components/Layout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/xeriscoin" element={<XerisCoin />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/design-system" element={<DesignSystem />} />
           <Route path="/data" element={<Placeholder title="Network Intelligence" />} />
           <Route path="/testnet-beta" element={<Placeholder title="Testnet Registration" />} />
           <Route path="/terms" element={<Placeholder title="Terms of Service" />} />

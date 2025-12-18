@@ -16,11 +16,8 @@ const Header = () => {
         <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-[#010414]/80 backdrop-blur-xl">
             <div className="container mx-auto px-6 h-24 flex items-center justify-between">
                 <div className="flex items-center gap-16">
-                    <Link to="/" className="flex items-center gap-2 group">
-                        <div className="w-8 h-8 bg-[#0019A5] flex items-center justify-center rounded-sm transition-transform group-hover:scale-110">
-                            <div className="w-4 h-4 border-2 border-white border-t-0 border-l-0 rotate-45 translate-x-[-1px] translate-y-[-2px]"></div>
-                        </div>
-                        <span className="text-xl font-display font-extrabold tracking-tighter text-[#F0F2F5]">XERIS</span>
+                    <Link to="/" className="flex items-center gap-3 group">
+                        <img src="/logos/LogoDark.png" alt="Xeris Logo" className="h-10 w-auto transition-transform group-hover:scale-105" />
                     </Link>
                     <div className="hidden lg:flex gap-10">
                         {navLinks.map((link) => (

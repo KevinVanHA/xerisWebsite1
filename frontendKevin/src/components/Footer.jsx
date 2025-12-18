@@ -8,10 +8,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
                     <div className="col-span-1 md:col-span-1">
                         <div className="flex items-center gap-2 mb-6">
-                            <div className="w-6 h-6 bg-[#0019A5] flex items-center justify-center rounded-sm">
-                                <div className="w-3 h-3 border-2 border-white border-t-0 border-l-0 rotate-45 translate-x-[-1px] translate-y-[-1px]"></div>
-                            </div>
-                            <span className="text-lg font-display font-black tracking-tighter text-[#F0F2F5]">XERIS</span>
+                            <img src="/logos/LogoDark.png" alt="Xeris Logo" className="h-8 w-auto" />
                         </div>
                         <p className="text-sm text-[#64748b] leading-relaxed">
                             Architecting the hardware-secured triple consensus blockchain for institutional liquidity.
